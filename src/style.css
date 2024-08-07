@@ -1,0 +1,22 @@
+.outer-container{
+    height: 100vh;
+    position: relative;
+    background-color: rgb(84, 161, 84);
+}
+.width-100{
+    width: 300px;
+}
+.form-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+form{
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    min-height: 310px;
+
+}
+button{
+    margin-bottom: 25px;
+}

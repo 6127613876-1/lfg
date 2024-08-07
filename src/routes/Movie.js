@@ -7,10 +7,14 @@ import Highlight from "../components/Highlight"
 import Home from "../components/Home"
 import ComingSoon from "../components/ComingSoon"
 import Movies from "../components/Movies"
+import Profile from "../components/Profile";
 const Movie = () => {
   return (
     <>
+    <div>
       <Header/>
+    </div>
+    
       <Home/>
       <Movies/>
       <ComingSoon/>
@@ -20,4 +24,4 @@ const Movie = () => {
     </>
   )
 }
-export default Movies
+export default Movie

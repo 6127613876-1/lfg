@@ -1,0 +1,65 @@
+.sign-in-container {
+  width: 100%;
+  max-width: 400px;
+  margin: -800px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+
+.sign-in-container input {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+}
+
+.fo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the social media links */
+.social-container {
+  margin-bottom: 20px;
+}
+
+.social-container a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style for the title */
+.social-container h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Style for the Sign In button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.ft3{
+    top: 100%;
+    position: absolute;
+    width: 100%;
+}
