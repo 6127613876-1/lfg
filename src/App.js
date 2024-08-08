@@ -6,7 +6,7 @@ import ContactPage from "./components/ContactPage";
 import Login from "./Login";
 import Profile from "./components/Profile";
 import "./App.css"; // Include CSS for general styles
-
+import Storage from "./components/Storage";
 const App = () => {
   return (
     <Routes>
@@ -14,6 +14,7 @@ const App = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<SignInForm />} />
       <Route path="/profile" element={<Profile />} />
+      <Route path="/store" element={<Storage />} />
       <Route path="/contact" element={<ContactPage />} />
     </Routes>
   );

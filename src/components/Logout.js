@@ -2,11 +2,8 @@ import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Logout = () => {
-  const { logout, isAuthenticated } = useAuth0();
+  const { logout } = useAuth0();
   
-  if (!isAuthenticated) {
-    return null; // Do not show the button if the user is not authenticated
-  }
   
   return (
     <button className="btn" onClick={() => logout({ returnTo: window.location.origin })}>
