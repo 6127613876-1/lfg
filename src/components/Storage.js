@@ -13,5 +13,4 @@ const Storage = () =>
     </DropboxChooser>
   )
 }
-
 export default Storage;
