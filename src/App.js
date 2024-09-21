@@ -7,6 +7,7 @@ import Login from "./Login";
 import Profile from "./components/Profile";
 import "./App.css"; // Include CSS for general styles
 import Storage from "./components/Storage";
+import MovieForm from "./components/MovieForm";
 const App = () => {
   return (
     <Routes>
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/profile" element={<Profile />} />
       <Route path="/store" element={<Storage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/movieform" element={<MovieForm />} />
     </Routes>
   );
 };

@@ -56,7 +56,7 @@ export default function ContactUs() {
                     type="email" 
                     required 
                   />
-                </Col>
+                </Col>  
               </Row>
               <textarea
                 className="form-control rounded-0"
@@ -70,7 +70,7 @@ export default function ContactUs() {
               <Row>
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit"> 
-                  Send
+                  Send 
                   </button>
                 </Col>
               </Row>

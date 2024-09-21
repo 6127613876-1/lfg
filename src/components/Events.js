@@ -24,7 +24,7 @@ const Events = () => {
           <h4 style={{ color: 'black', fontWeight: '500' }}>YUVAN Live</h4>
           <p>Monday, March 14 | 4:00 PM</p>
           <p style={{ color: 'black', fontWeight: '500' }}>Singapore</p>
-        </div>
+        </div> 
         <div className="event">
           <img src={img3} alt="AR Rahman Live" style={{ width: '450px', height: '258px' }} />
           <h4 style={{ color: 'black', fontWeight: '500' }}>AR RAHMAN LIVE</h4>
